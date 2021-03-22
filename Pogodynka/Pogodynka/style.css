@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body { 
+    
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(104, 105, 187, 0.3);
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    
+    max-width: 280px;
+    padding: 10px 15px;   
+
+    background-color: rgba(255, 255, 255, 0.3);    
+    border: 5px solid  rgba(128, 37, 37, 0.3);    
+    
+    font-size: 20px;
+    font-weight: 300;
+    
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .lokacja .miasto {
+    color:  rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .lokacja .data {
+    color: rgb(255, 255, 255);;
+    font-size: 26px;
+  }
+  
+  .teraz .temp {
+    color: rgb(255, 255, 255);;
+    font-size: 102px;
+    font-weight: 300;
+    margin: 30px 0px;
+    
+  }
+  
+  .teraz .temp span {
+    font-weight: 500;
+  }
+  
+  .teraz .weather {
+    color: rgb(255, 255, 255);;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    
+  }
+  
+  .teraz .hi-low {
+    color: rgb(255, 255, 255);;
+    font-size: 24px;
+    font-weight: 500;
+    
+  }
